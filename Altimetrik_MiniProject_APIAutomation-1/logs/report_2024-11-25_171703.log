@@ -1,0 +1,9 @@
+[2024-11-25 17:17:03,527] [INFO ] [main] apiTestCases.ValidateCartsFunctions -*****Adding the cart details*****
+[2024-11-25 17:17:05,649] [INFO ] [main] helpers.CartOperations -User ID value is:1
+[2024-11-25 17:17:05,650] [INFO ] [main] apiTestCases.ValidateCartsFunctions -*****Getting the status code*****
+[2024-11-25 17:17:05,650] [INFO ] [main] apiTestCases.ValidateCartsFunctions -The response code is 201
+[2024-11-25 17:17:05,650] [INFO ] [main] apiTestCases.ValidateCartsFunctions -*****Validating the status code*****
+[2024-11-25 17:17:05,660] [INFO ] [main] apiTestCases.ValidateCartsFunctions -*****Deleting the cart details*****
+[2024-11-25 17:17:06,374] [INFO ] [main] apiTestCases.ValidateCartsFunctions -*****Getting the status code*****
+[2024-11-25 17:17:06,374] [INFO ] [main] apiTestCases.ValidateCartsFunctions -The response code is 200
+[2024-11-25 17:17:06,375] [INFO ] [main] apiTestCases.ValidateCartsFunctions -*****Validating the status code*****

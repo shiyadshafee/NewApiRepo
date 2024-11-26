@@ -1,0 +1,168 @@
+Request method:	POST
+Request URI:	https://dummyjson.com/carts/add
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": 1,
+    "products": [
+        {
+            "id": 144,
+            "quantity": 4
+        },
+        {
+            "id": 98,
+            "quantity": 1
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732535214&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=S9NLY1MmupiGUuRMyXR9S%2F4xZgWImR2mB4SQytrLfsw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732535214&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=S9NLY1MmupiGUuRMyXR9S%2F4xZgWImR2mB4SQytrLfsw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+X-Dns-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Powered-By: Cats on Keyboards
+Server: BobTheBuilder
+X-Ratelimit-Limit: 100
+X-Ratelimit-Remaining: 99
+Date: Mon, 25 Nov 2024 11:46:54 GMT
+X-Ratelimit-Reset: 1732535222
+Content-Type: application/json; charset=utf-8
+Content-Length: 591
+Etag: W/"24f-T9CUJWjdyf4MiKTF3gsr7CH6aqM"
+Vary: Accept-Encoding
+Via: 1.1 vegur
+
+{
+    "id": 51,
+    "products": [
+        {
+            "id": 98,
+            "title": "Rolex Submariner Watch",
+            "price": 13999.99,
+            "quantity": 4,
+            "total": 55999.96,
+            "discountPercentage": 0.82,
+            "discountedPrice": 55541,
+            "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/thumbnail.png"
+        },
+        {
+            "id": 144,
+            "title": "Cricket Helmet",
+            "price": 44.99,
+            "quantity": 1,
+            "total": 44.99,
+            "discountPercentage": 10.75,
+            "discountedPrice": 40,
+            "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Helmet/thumbnail.png"
+        }
+    ],
+    "total": 56044.95,
+    "discountedTotal": 55581,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 5
+}
+Request method:	DELETE
+Request URI:	https://dummyjson.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	UserID=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732535215&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=mvOINrKUtKSzE%2FG6gccU%2FIpps0YDh04irkfWLRqcpew%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732535215&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=mvOINrKUtKSzE%2FG6gccU%2FIpps0YDh04irkfWLRqcpew%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+X-Dns-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Powered-By: Cats on Keyboards
+Server: BobTheBuilder
+X-Ratelimit-Limit: 100
+X-Ratelimit-Remaining: 99
+Date: Mon, 25 Nov 2024 11:46:55 GMT
+X-Ratelimit-Reset: 1732535222
+Content-Type: application/json; charset=utf-8
+Etag: W/"499-aqjPCF0/7N/WCbjy/r70b4OJqic"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+Via: 1.1 vegur
+
+{
+    "id": 1,
+    "products": [
+        {
+            "id": 168,
+            "title": "Charger SXT RWD",
+            "price": 32999.99,
+            "quantity": 3,
+            "total": 98999.97,
+            "discountPercentage": 13.39,
+            "discountedTotal": 85743.87,
+            "thumbnail": "https://cdn.dummyjson.com/products/images/vehicle/Charger%20SXT%20RWD/thumbnail.png"
+        },
+        {
+            "id": 78,
+            "title": "Apple MacBook Pro 14 Inch Space Grey",
+            "price": 1999.99,
+            "quantity": 2,
+            "total": 3999.98,
+            "discountPercentage": 18.52,
+            "discountedTotal": 3259.18,
+            "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png"
+        },
+        {
+            "id": 183,
+            "title": "Green Oval Earring",
+            "price": 24.99,
+            "quantity": 5,
+            "total": 124.94999999999999,
+            "discountPercentage": 6.28,
+            "discountedTotal": 117.1,
+            "thumbnail": "https://cdn.dummyjson.com/products/images/womens-jewellery/Green%20Oval%20Earring/thumbnail.png"
+        },
+        {
+            "id": 100,
+            "title": "Apple Airpods",
+            "price": 129.99,
+            "quantity": 5,
+            "total": 649.95,
+            "discountPercentage": 12.84,
+            "discountedTotal": 566.5,
+            "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
+        }
+    ],
+    "total": 103774.85,
+    "discountedTotal": 89686.65,
+    "userId": 33,
+    "totalProducts": 4,
+    "totalQuantity": 15,
+    "isDeleted": true,
+    "deletedOn": "2024-11-25T11:46:55.874Z"
+}
