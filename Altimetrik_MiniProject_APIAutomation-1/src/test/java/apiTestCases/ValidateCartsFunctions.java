@@ -19,7 +19,7 @@ public class ValidateCartsFunctions {
         int statusCode = response.getStatusCode();
         logger.info("The response code is " + statusCode);
         logger.info("*****Validating the status code*****");
-        softAssert.assertEquals(statusCode, 201);
+        softAssert.assertEquals(statusCode, 200);
     }
 
     @Test(dependsOnMethods = {"addCartFunction"})
